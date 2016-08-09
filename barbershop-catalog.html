@@ -35,12 +35,12 @@
 			<form action="#" method="post">
 			<h2>Производители</h2>
 				<ul>
-					<li><input type="checkbox" checked>Baxter of california</li>
-					<li><input type="checkbox">Mr natty</li>
-					<li><input type="checkbox" checked>Suavecito</li>
-					<li><input type="checkbox">Malin+Goetz</li>
-					<li><input type="checkbox">Murray's</li>
-					<li><input type="checkbox" checked>American crew</li>
+					<li><input type="checkbox" name="baxter" checked><label for="baxter">Baxter of california</label></li>
+					<li><input type="checkbox" name="nitty"><label for="nitty">Mr natty</label></li>
+					<li><input type="checkbox" name="suavecito" checked><label for="suavecito">Suavecito</label></li>
+					<li><input type="checkbox" name="malin"><label for="malin">Malin+Goetz</label></li>
+					<li><input type="checkbox" mane="murray's"><label for="murray's">Murray's</li>
+					<li><input type="checkbox" checked name="american"><label for="american">American crew</li>
 				</ul>
 		
 			<h2>Группы товаров</h2>
@@ -49,78 +49,62 @@
 					<li><input type="checkbox" checked>Средства для ухода</li>
 					<li><input type="checkbox">Аксессуары</li>
 				</ul>
-				<button>Показать</button>
+				<button type="submit">Показать</button>
+			</form>
 		</div>
 		<div class="goods">
-			<div class="item">
+			<article class="item">
 				<img src="http://placehold.it/150x100">
-				<p>Набор для путешествий</p>
-				<p>"Baxter of california"</p>
+				<h2>Набор для путешествий "Baxter of california"</h2>
 					<div class="item-price">
-						2 900 руб.
-					</div>
-					<div class="item-btn">
+						<spasn>2 900 руб.</spasn>
 						<a href="#">Купить</a>
 					</div>
-			</div>
-			<div class="item">
+			</article>
+			<article class="item">
 				<img src="http://placehold.it/150x100">
-				<p>Увлажняющий кандиционер</p>
-				<p>"Baxter of california"</p>
+				<h2>Увлажняющий кандиционер "Baxter of california"</h2>
 					<div class="item-price">
-						750 руб.
-					</div>
-					<div class="item-btn">
+						<span>750 руб.</span>					
 						<a href="#">Купить</a>
 					</div>
-			</div>
-			<div class="item">
+			</article>
+			<article class="item">
 				<img src="http://placehold.it/150x100">
-				<p>Гель для волос</p>
-				<p>"Sauecito"</p>
+				<h2>Гель для волос "Sauecito"</h2>
 					<div class="item-price">
-						290 руб.
-					</div>
-					<div class="item-btn">
+						<span>290 руб.</span>
 						<a href="#">Купить</a>
 					</div>
-			</div>
-			<div class="item">
+			</article>
+			<article class="item">
 				<img src="http://placehold.it/150x100">
-				<p>Глина для укладки волос</p>
-				<p>"American crew"</p>
+				<h2>Глина для укладки волос "American crew"</h2>
 					<div class="item-price">
-						500 руб.
-					</div>
-					<div class="item-btn">
+						<span>500 руб.</span>="item-btn">
 						<a href="#">Купить</a>
 					</div>
-			</div>
-			<div class="item">
+			</article>
+			<article class="item">
 				<img src="http://placehold.it/150x100">
-				<p>Гели для бритья</p>
-				<p>"American crew"</p>
+				<h2>Гели для бритья "American crew"</h2>
 					<div class="item-price">
-						300 руб.
-					</div>
-					<div class="item-btn">
+						<span>300 руб.</span>-btn">
 						<a href="#">Купить</a>
 					</div>
-			</div>
-			<div class="item">
+			</article>
+			<article class="item">
 				<img src="http://placehold.it/150x100">
-				<p>Набор для бритья</p>
-				<p>"Baxter of california"</p>
+				<h2>Набор для бритья "Baxter of california"</h2>
 					<div class="item-price">
-						3 900 руб.
-					</div>
-					<div class="item-btn">
+						<span>3 900 руб.</span>
 						<a href="#">Купить</a>
 					</div>
+			</article>
 				<div class="pages">
 					<ul>
 						<li><a href="#">1</a></li>
-						<li><a class="chosen" href="#">2</a></li>
+						<li><span class="chosen" href="#">2</span></li>
 						<li><a href="#">3</a></li>
 						<li><a href="#">4</a></li>
 					</ul>
