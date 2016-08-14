@@ -1,0 +1,39 @@
+body {
+  font-size: ;
+  line-height: ;
+  color: ;
+  font-weight: ;
+  font-family: ;
+}
+
+.content-title {
+  font-size: ;
+  line-height: ;
+  color: ;
+  font-weight: ;
+  font-family: ;
+}
+
+.index-content-title {
+  font-size: ;
+  line-height: ;
+  color: ;
+  font-weight: ;
+  font-family: ;
+}
+
+.filter-title {
+  font-size: ;
+  line-height: ;
+  color: ;
+  font-weight: ;
+  font-family: ;
+}
+
+h2 {
+  font-size: ;
+  line-height: ;
+  color: ;
+  font-weight: ;
+  font-family: ;
+}
